@@ -21,7 +21,7 @@ for x in range(ord('a'), ord('a') + n):
         else:
             print('+', end='')
         print(chr(x) + str(y), end='')
-    print("=1")
+    print("<=1")
 
 print()
 
@@ -33,7 +33,7 @@ for y in range(1, n + 1):
         else:
             print('+', end='')
         print(chr(x) + str(y), end='')
-    print("=1")
+    print("<=1")
 
 print()
 
@@ -45,7 +45,7 @@ for x in range(0, n-2):                                                   #najpi
         else:
             print('+', end='')
         print(chr(ord('a')+y) + str(n-1-x+y), end='')
-    print("=1")
+    print("<=1")
 
 for x in range(0, n-1):                                               #po pierwszym wierszu
     f = True
@@ -55,7 +55,7 @@ for x in range(0, n-1):                                               #po pierws
         else:
             print('+', end='')
         print(chr(ord('a') + x + y ) + str(1+y), end='')
-    print("=1")
+    print("<=1")
 print()
 print()
 print()
@@ -69,7 +69,7 @@ for x in range(0, n-2):                                                   #najpi
         else:
             print('+', end='')
         print(chr(ord('a')+y) + str(2+x-y), end='')
-    print("=1")
+    print("<=1")
 
 
 for x in range(0, n-1):
@@ -80,7 +80,7 @@ for x in range(0, n-1):
         else:
             print('+', end='')
         print(chr(ord('a') + x + y) + str(n-y), end='')
-    print("=1")
+    print("<=1")
 print()
 
 print("Bounds")
